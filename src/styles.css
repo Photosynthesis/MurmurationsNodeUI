@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial';
+}
+
+#error {
+  color: red;
+  background-color: pink;
+  display: none;
+}
+
+#result {
+  color: darkgreen;
+  background-color: lightgreen;
+  display: none;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+#submit, #post {
+  display: none;
+  font-size: 1.5em;
+}
+
+.form-control {
+  padding-top: 0;
+}
+
+input {
+  width: 80%;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+label.je-form-input-label {
+  padding-top: 0.5em;
+  padding-bottom: 0;
+}
+
+p.je-form-input-label {
+  font-weight: 300 !important;
+  padding-bottom: 1.5em;
+}
+
+h3, p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0;
+}
+
+.je-indented-panel {
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+button {
+  margin-bottom: 2em;
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+pre {
+  background-color: #e9e9e9;
+}

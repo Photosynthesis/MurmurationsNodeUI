@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <label for="schema-list">Schema Selection: </label>
+  <select name="schema-list" id="schema-list">
+    <option value="">Choose a schema...</option>
+    <option
+      value="https://raw.githubusercontent.com/MurmurationsNetwork/MurmurationsLibrary/master/schemas/demo-v1.json">
+      demo-v1</option>
+  </select>
+
+  <div id="error"></div>
+  <div id="schema_editor"></div>
+  <button id="submit">Generate Profile</button>
+  <pre id="profile"></pre>
+  <div id ="result"></div>
+  <button id="post">Post to Index</button>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "murmurations-node-ui",
+  "version": "0.1.0",
+  "description": "Prototype Node UI for Murmurations Protocol v1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "dev": "parcel src/index.html",
+    "build": "rm -rf dist/ && parcel build src/index.html --public-url ./"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "standard": "^15.0.0"
+  },
+  "dependencies": {
+    "@json-editor/json-editor": "^2.5.1"
+  }
+}
