@@ -7,6 +7,30 @@ body {
   background-color: pink;
   display: none;
 }
+.notification {
+  padding: 10px;
+  margin: 5px;
+}
+.error{
+  color: #990000;
+  background-color: #ff6666;
+  border: 1px solid red;
+}
+.warn{
+  color: #770;
+  background-color: #ff6;
+  border: 1px solid orange;
+}
+.notice{
+  color: #007;
+  background-color: #bcf;
+  border: 1px solid blue;
+}
+.success{
+  color: #070;
+  background-color: #6f6;
+  border: 1px solid green;
+}
 
 #result {
   color: darkgreen;
